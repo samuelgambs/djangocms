@@ -195,18 +195,40 @@ CMS_TEMPLATES = (
 CMS_PERMISSION = True
 
 CMS_PLACEHOLDER_CONF = {}
+import os
+#DATABASES = {
+   # 'default': dj_database_url.config(default='postgres://localhost:5432/postgres'),    
+   # 'default': {
+    #    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+     #   'NAME': 'postgres',
+    #    'PASSWORD': '',
+    #    'USER': 'postgres'
+   # }
+#i}
+
+#DATABASES = {
+#            'default': {
+#                'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#                'NAME': 'postgres',
+#                'USER': 'postgres',
+#                'PASSWORD': '',
+#                'HOST': os.getenv('POSTGRES_PORT_5432_TCP_ADDR', ''),
+#                'PORT': os.getenv('POSTGRES_PORT_5432_TCP_PORT', ''),
+#    }
+#}
 
 DATABASES = {
-    'default': {
-        'CONN_MAX_AGE': 0,
-        'ENGINE': 'django.db.backends.sqlite3',
-        'HOST': 'localhost',
-        'NAME': 'project.db',
-        'PASSWORD': '',
-        'PORT': '',
-        'USER': ''
-    }
-}
+            'default': {
+                        'CONN_MAX_AGE': 0,
+                                'ENGINE': 'django.db.backends.sqlite3',
+                                        'HOST': 'localhost',
+                                                'NAME': 'project.db',
+                                                        'PASSWORD': '',
+                                                                'PORT': '',
+                                                                        'USER': ''
+                                                                            }
+            }
+
 
 
 MIGRATION_MODULES = {
