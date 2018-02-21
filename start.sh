@@ -1,4 +1,5 @@
 #!/bin/bash
+python /usr/src/app/manage.py collectstatic --noinput
 
 # Start Gunicorn processes
 echo Starting Gunicorn.
