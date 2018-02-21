@@ -155,6 +155,7 @@ INSTALLED_APPS = (
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
+#    'djangocms_slider',
     'parler',
     'sortedm2m',
     'taggit',
@@ -189,7 +190,8 @@ CMS_TEMPLATES = (
     ## Customize this
     ('fullwidth.html', 'Fullwidth'),
     ('sidebar_left.html', 'Sidebar Left'),
-    ('sidebar_right.html', 'Sidebar Right')
+    ('sidebar_right.html', 'Sidebar Right'),
+    ('fullwidth_home.html', 'Home'),
 )
 
 CMS_PERMISSION = True

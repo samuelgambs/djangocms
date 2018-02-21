@@ -1,1 +1,4 @@
-tmp/
+tmp
+src/static
+src/media
+src/mysite/__pycache__
