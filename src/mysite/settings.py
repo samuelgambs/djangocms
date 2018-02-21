@@ -31,7 +31,11 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '*',
-    '35.188.16.5'
+    '35.188.16.5',
+    'gfil.tk',
+    'gfil.org.br'
+    'www.gfil.org.br',
+    'www.gfil.tk'
     ]
 
 # Application definition
