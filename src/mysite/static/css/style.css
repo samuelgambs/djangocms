@@ -3292,7 +3292,7 @@ input.nav__search-mobile-input:-ms-input-placeholder {
   .footer--dark .widget-title {
     color: #fff; }
   .footer--dark p, .footer--dark a {
-    color: #878c8e; }
+    color: #fff !important; }
   .footer--dark .social {
     color: #fff; }
   .footer--dark .post-list-small__item,
